@@ -28,7 +28,7 @@ This is a working clone of GearSwap as we're adding features and had to change n
 
 3) Create categories link not visable. Work through test suite errors.  One bug is causing multiple failures.
 
-![Alt text](/lib/assets/axswap_twitter_ink.png)
+![Alt text](/lib/assets/axswap_twitter_link.png)
 
 # License #
 
