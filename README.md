@@ -11,9 +11,9 @@ Registration is easy and free!
 Listings only appear on the site for one week after they're created, so you'll only see the most up-to-date info.
 
 
-### Development Collaborators' note: If you git clone the repo don't forget to add your own application.yml file for development testing.
+### Dev Collaborators' note: #If you git clone the repo don't forget to add your own application.yml file for development testing.
 
-This is a working clone of GearSwap as we're adding features and had to change name from GearSwap to AxSwap. #
+This is a working clone of GearSwap as we're adding features and had to change name from GearSwap to AxSwap.
 
 ### Open Issues #
 
