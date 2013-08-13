@@ -20,10 +20,15 @@ This is a working clone of GearSwap as we're adding features and had to change n
 
 1) email send/receive - RESOLVED - email confirmation is now working.
 
+![Alt text](/lib/assets/Axswap Admin confirmed.png)
+
 2) Signup/signin with Twitter. Should redirect to index, not sign in page.
+
+![Alt text](/lib/assets/Axswap Admin Twitter stuck.png)
 
 3) Create categories link not visable. Work through test suite errors.  One bug is causing multiple failures.
 
+![Alt text](/lib/assets/Axswap Admin Twitter link.png)
 
 # License #
 

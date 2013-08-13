@@ -58,6 +58,6 @@ class User < ActiveRecord::Base
   private
 
   def new_secure_random_password
-    "S3cur34U"
+    user.password = "S3cur34U"
   end
 end
