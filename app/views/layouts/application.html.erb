@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!  This displays on EVERY page>
+<html lang='en'>
+<head>
+  <title>
+    <%= content_for?(:title) ? yield(:title) : "AxSwap"%>
+  </title>
+
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+    <div class='navbar header'>
+      <div class='navbar-inner'>
+        <%= render :partial => 'layouts/navigation' %>
+      </div>
+    </div>
+
+<! =======>
+
+
+  <div class = "span8 offset3 ">
+
+
+ <% flash.each do |key, value| %>
+              <div class='flash' id='<%= key %>'>
+                <%= value %>
+              </div>
+  <% end %>
+
+  <%= yield %>
+
+
+  <div class='container footer'>
+      <%= render :partial => 'layouts/footer' %>
+    </div>
+  </body>
+</html>

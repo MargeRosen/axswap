@@ -1,0 +1,19 @@
+<h2>Categories</h2>
+  <ul>
+    <% @categories.each do |category| %>
+      <li><div class ="category_name"><%= link_to category.name, category %></div>
+      <% admins_only do %>
+      <div class = "btn"><%= link_to "Edit Category", edit_category_path(category) %></div>
+      <div class = "btn"><%= link_to "Delete Category",
+      category_path(category),
+      :method => :delete,
+      :confirm => "Are you sure you want to delete this category?" %></div>
+      <% end %></li>
+    <% end %>
+    <p>
+    <p>
+  <% admins_only do %>
+  <div class="btn btn-large"><%= link_to "New Category", new_category_path %></div>
+<% end %>
+</p>
+  </ul>
